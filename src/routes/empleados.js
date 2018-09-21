@@ -70,7 +70,7 @@ router.post('/insertar', (req, res)=>
 )
 
 
-router.put('/editar/:id?', (req,res)=>
+router.put('/editar/:id', (req,res)=>
 {
         const {name, salary} = req.body
         const id = req.params.id
